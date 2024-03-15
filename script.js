@@ -23,11 +23,11 @@ function performSearch() {
         messages: [
           {
             role: 'system',
-                        content: `take in the context of these search results: [\n\n${results.join('\n')}] and summarize it for me please.`,
+                          content: `Here are some search results based on the user''s query, use these to respind to the user in an informative and concise way but don't be afraid to be lengthy whenb needed but try to be concise when possible': [\n\n${results.join('\n')}] and summarize it for me please.`,
                     },
                     {
                         role: 'user',
-                        content: `summarize the search results for "${query}"`
+        content: `User's' query: "${query}"`
                     }
                 ]
             };
