@@ -37,7 +37,7 @@ function performSearch() {
                 method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer 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`
+          'Authorization': `Bearer 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`
         },
         body: JSON.stringify(groqInput)
       })
